@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: orangered;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+nav li:hover{
+    background-color: brown;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 30px 15px 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+/* Main */
+main {
+    padding: 50px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+.section h2{text-align: center;
+margin: 0 0 20px;}
+/*Form*/
+form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+/*Label*/
+label{display: block;
+margin-bottom: 10px;}
+/*Input*/
+input[type="text"],input[type="email"],input[type="password"]
+{width: 100%;
+padding: 10px;border: 1px solid purple;
+border-radius: 5px;
+margin-bottom: 20px;
+cursor: pointer;}
+/* Footer */
+footer {
+    background-color: orangered;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/*Button*/
+button[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
